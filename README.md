@@ -4,14 +4,13 @@ Sample Project built with Python , Flask ,SQL-Alchemy and KnockoutJS for 'Featur
 ## Feature Request Application:
 This is a web application built with Python and Flask.
 The home page where a user can fill in a feature request form, KnockoutJS is used for data binding and validation,
-SQl-Alchemy ORM is used for persisting data into database Postgresql is used as database.A details page is rendered where a user can see feature 
-request list in the form of a table.
+SQl-Alchemy ORM is used for persisting data into database Postgresql is used as database.A details page is rendered where a user can see feature request list in the form of a table.
 
 ## Getting Started:
 Pre-requisites: Project is developed using
-	* Python (v.3.6.4), 
-	* PostgreSql database(v.10.1)
-	* Browsers: Chrome(v.64.) and Firefox(v.55+)	
+* Python (v.3.6.4), 
+* PostgreSql database(v.10.1)
+* Browsers: Chrome(v.64.) and Firefox(v.55+)	
 
 ## TODO:
 * Building Project and Deploying In Cloud
@@ -41,9 +40,9 @@ Pre-requisites: Project is developed using
 Open chrome/Mozilla and navigate to url ‘http://127.0.0.1:5000/’ where list of fields are present for customer to fill
 in are as follows:
 Here different types of form fields are used 
-	•String type,Date type,Integer Type
-	•Data binding are done using KnockoutJS.
-	•HTML attributes are used for validation.
+* String type,Date type,Integer Type
+* Data binding are done using KnockoutJS.
+* HTML attributes are used for validation.
 
 ## List of Details Page:
 On Submission of valid data it routes to url ‘http://127.0.0.1:5000/FeatureRequestDeatils’ of details page.
@@ -51,10 +50,10 @@ It list all the feature request details in a table which will have Sorting and S
 
 ## Tech Stack Requirements
 The following are requirements on the tech stack.
-	•OS: Windows/Linux
-	•Server Side Scripting: Python (3.6.4)
-	•Server Framework: Flask (0.12.2)
-	•SqlAlchemy (1.2.2)
-	•JavaScript: KnockoutJS (3.4.2)
-	•Testing: Unittest2 (1.1.0)
-	•Bootstrap for css
+* OS: Windows/Linux
+* Server Side Scripting: Python (3.6.4)
+* Server Framework: Flask (0.12.2)
+* SqlAlchemy (1.2.2)
+* JavaScript: KnockoutJS (3.4.2)
+* Testing: Unittest2 (1.1.0)
+* Bootstrap for css
