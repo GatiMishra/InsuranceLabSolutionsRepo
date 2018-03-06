@@ -1,23 +1,23 @@
-#InsuranceLabSolutionsRepo
+# InsuranceLabSolutionsRepo
 Sample Project built with Python , Flask ,SQL-Alchemy and KnockoutJS for 'Feature Request Application'
 
-Feature Request Application:
+## Feature Request Application:
 This is a web application built with Python and Flask.
 The home page where a user can fill in a feature request form, KnockoutJS is used for data binding and validation,
 SQl-Alchemy ORM is used for persisting data into database Postgresql is used as database.A details page is rendered where a user can see feature 
 request list in the form of a table.
 
-Getting Started:
+## Getting Started:
 Pre-requisites: Project is developed using
 	* Python (v.3.6.4), 
 	* PostgreSql database(v.10.1)
 	* Browsers: Chrome(v.64.) and Firefox(v.55+)
 	
 
-TODO:
+## TODO:
 * Building Project and Deploying In Cloud
 
-Installation:
+## Installation:
 1.Download the project folder from the github.
 2.Open cmd in project folder “InsuranceLabSolutionsRepo\FeatureRequestApplication\venv\Scripts” and execute the activate
 
@@ -38,7 +38,7 @@ Installation:
 						* Serving Flask app "FeatureRequestApplication"
 						* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
-Form Page:
+## Form Page:
 Open chrome/Mozilla and navigate to url ‘http://127.0.0.1:5000/’ where list of fields are present for customer to fill
 in are as follows:
 Here different types of form fields are used 
@@ -46,11 +46,11 @@ Here different types of form fields are used
 •Data binding are done using KnockoutJS.
 •HTML attributes are used for validation.
 
-List of Details Page:
+## List of Details Page:
 On Submission of valid data it routes to url ‘http://127.0.0.1:5000/FeatureRequestDeatils’ of details page.
 It list all the feature request details in a table which will have Sorting and Searching mechanism.
 
-Tech Stack Requirements
+## Tech Stack Requirements
 The following are requirements on the tech stack.
 •OS: Windows/Linux
 •Server Side Scripting: Python (3.6.4)
