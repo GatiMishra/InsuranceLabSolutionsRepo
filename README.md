@@ -45,7 +45,7 @@ Here different types of form fields are used
 * HTML attributes are used for validation.
 
 ## List of Details Page:
-On Submission of valid data it routes to url ‘http://127.0.0.1:5000/FeatureRequestDeatils’ of details page.
+On Submission of valid data it routes to url ‘http://127.0.0.1:5000/FeatureRequestDetails’ of details page.
 It list all the feature request details in a table which will have Sorting and Searching mechanism.
 
 ## Application Technical Stack
